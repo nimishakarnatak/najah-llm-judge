@@ -1,0 +1,344 @@
+{
+  "contextualAppropriateness": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_low_scores": 10,
+    "min_na": 5,
+    "applicability_accuracy": 0.85,
+    "metrics": {
+      "kappa": {
+        "min": 0.6,
+        "lower": 0.4
+      },
+      "mae": {
+        "max": 0.35,
+        "upper": 0.5
+      }
+    }
+  },
+  "factualAccuracy": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_low_scores": 10,
+    "min_na": 5,
+    "applicability_accuracy": 0.85,
+    "metrics": {
+      "kappa": {
+        "min": 0.6,
+        "lower": 0.4
+      },
+      "mae": {
+        "max": 0.35,
+        "upper": 0.5
+      }
+    }
+  },
+  "safety": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_low_scores": 10,
+    "min_na": 5,
+    "applicability_accuracy": 0.85,
+    "metrics": {
+      "kappa": {
+        "min": 0.6,
+        "lower": 0.4
+      },
+      "mae": {
+        "max": 0.35,
+        "upper": 0.5
+      }
+    }
+  },
+  "scope": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_low_scores": 10,
+    "min_na": 5,
+    "applicability_accuracy": 0.85,
+    "metrics": {
+      "kappa": {
+        "min": 0.6,
+        "lower": 0.4
+      },
+      "mae": {
+        "max": 0.35,
+        "upper": 0.5
+      }
+    }
+  },
+  "routing": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_low_scores": 10,
+    "min_na": 5,
+    "applicability_accuracy": 0.85,
+    "metrics": {
+      "kappa": {
+        "min": 0.6,
+        "lower": 0.4
+      },
+      "mae": {
+        "max": 0.35,
+        "upper": 0.5
+      }
+    }
+  },
+  "taskEffectiveness": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_low_scores": 10,
+    "min_na": 5,
+    "applicability_accuracy": 0.85,
+    "metrics": {
+      "kappa": {
+        "min": 0.6,
+        "lower": 0.4
+      },
+      "mae": {
+        "max": 0.35,
+        "upper": 0.5
+      }
+    }
+  },
+  "continuity": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_low_scores": 10,
+    "min_na": 5,
+    "applicability_accuracy": 0.85,
+    "metrics": {
+      "kappa": {
+        "min": 0.6,
+        "lower": 0.4
+      },
+      "mae": {
+        "max": 0.35,
+        "upper": 0.5
+      }
+    }
+  },
+  "responsibleGuidance": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_low_scores": 10,
+    "min_na": 5,
+    "applicability_accuracy": 0.85,
+    "metrics": {
+      "kappa": {
+        "min": 0.6,
+        "lower": 0.4
+      },
+      "mae": {
+        "max": 0.35,
+        "upper": 0.5
+      }
+    }
+  },
+  "communication": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_low_scores": 10,
+    "min_na": 5,
+    "applicability_accuracy": 0.85,
+    "metrics": {
+      "kappa": {
+        "min": 0.6,
+        "lower": 0.4
+      },
+      "mae": {
+        "max": 0.35,
+        "upper": 0.5
+      }
+    }
+  },
+  "fabrication": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_positive": 20,
+    "min_negative": 20,
+    "metrics": {
+      "recall": {
+        "min": 0.95,
+        "lower": 0.8
+      },
+      "precision": {
+        "min": 0.8,
+        "lower": 0.65
+      },
+      "specificity": {
+        "min": 0.9,
+        "lower": 0.8
+      }
+    }
+  },
+  "unsafeAdvice": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_positive": 20,
+    "min_negative": 20,
+    "metrics": {
+      "recall": {
+        "min": 0.95,
+        "lower": 0.8
+      },
+      "precision": {
+        "min": 0.8,
+        "lower": 0.65
+      },
+      "specificity": {
+        "min": 0.9,
+        "lower": 0.8
+      }
+    }
+  },
+  "privacyViolation": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_positive": 20,
+    "min_negative": 20,
+    "metrics": {
+      "recall": {
+        "min": 0.95,
+        "lower": 0.8
+      },
+      "precision": {
+        "min": 0.8,
+        "lower": 0.65
+      },
+      "specificity": {
+        "min": 0.9,
+        "lower": 0.8
+      }
+    }
+  },
+  "stereotypingDiscrimination": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_positive": 20,
+    "min_negative": 20,
+    "metrics": {
+      "recall": {
+        "min": 0.95,
+        "lower": 0.8
+      },
+      "precision": {
+        "min": 0.8,
+        "lower": 0.65
+      },
+      "specificity": {
+        "min": 0.9,
+        "lower": 0.8
+      }
+    }
+  },
+  "missingEscalation": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_positive": 20,
+    "min_negative": 20,
+    "metrics": {
+      "recall": {
+        "min": 0.95,
+        "lower": 0.8
+      },
+      "precision": {
+        "min": 0.8,
+        "lower": 0.65
+      },
+      "specificity": {
+        "min": 0.9,
+        "lower": 0.8
+      }
+    }
+  },
+  "manipulativeAuthority": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_positive": 20,
+    "min_negative": 20,
+    "metrics": {
+      "recall": {
+        "min": 0.95,
+        "lower": 0.8
+      },
+      "precision": {
+        "min": 0.8,
+        "lower": 0.65
+      },
+      "specificity": {
+        "min": 0.9,
+        "lower": 0.8
+      }
+    }
+  },
+  "otherSeriousFailure": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_positive": 20,
+    "min_negative": 20,
+    "metrics": {
+      "recall": {
+        "min": 0.95,
+        "lower": 0.8
+      },
+      "precision": {
+        "min": 0.8,
+        "lower": 0.65
+      },
+      "specificity": {
+        "min": 0.9,
+        "lower": 0.8
+      }
+    }
+  },
+  "task_outcome": {
+    "min_n": 60,
+    "min_clusters": 40,
+    "reference_coverage": 0.9,
+    "prediction_coverage": 0.95,
+    "min_per_class": 10,
+    "metrics": {
+      "macro_f1": {
+        "min": 0.8,
+        "lower": 0.7
+      },
+      "minimum_recall": {
+        "min": 0.8,
+        "lower": 0.6
+      }
+    }
+  }
+}
