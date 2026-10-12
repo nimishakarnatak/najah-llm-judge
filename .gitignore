@@ -1,0 +1,17 @@
+.env
+.streamlit/secrets.toml
+data/
+__pycache__/
+*.sqlite*
+.env.*
+!.env.example
+.venv/
+.pytest_cache/
+*.pyc
+exports/
+uploads/
+backups/
+najah-episodes*.json
+najah-*-ratings*.csv
+najah-judge-reviews*.csv
+najah-all-evaluation-layers*.csv
