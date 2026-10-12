@@ -1,0 +1,27 @@
+{
+  "episodes": [
+    {
+      "episode_id": "EXAMPLE001",
+      "participant_id": "P001",
+      "module": "cv_building",
+      "language": "fr",
+      "sampling_weight": 1.0,
+      "treatment": "Standard",
+      "turns": [
+        {
+          "turn_id": "001",
+          "role": "user",
+          "text": "Pouvez-vous améliorer mon CV ?",
+          "segment": "episode"
+        },
+        {
+          "turn_id": "002",
+          "role": "assistant",
+          "text": "Oui, partagez une version sans coordonnées personnelles.",
+          "segment": "episode"
+        }
+      ],
+      "delivery_evidence": []
+    }
+  ]
+}
